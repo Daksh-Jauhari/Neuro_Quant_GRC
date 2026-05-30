@@ -43,7 +43,7 @@ DATASET          = "imagenet_hf"
 IMAGENET_VAL_DIR = "./imagenet/val"
 BATCH_SIZE       = 64
 NUM_WORKERS      = 2
-EVAL_SAMPLES     = 5000
+EVAL_SAMPLES     = 50000          # full ImageNet-1K validation set
 CAL_SAMPLES      = 512
 PUBLISHED_FP32   = 76.13
 
