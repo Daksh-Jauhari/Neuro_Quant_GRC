@@ -1,4 +1,4 @@
-Configuration,Top-1 Acc (%),Acc Drop (pp),Energy (norm),Energy Savings (%),H1 Confirmed
-FP32 baseline (measured),76.6,0.0,1.0,0.0,—
-Uniform BF16,76.42,0.18,0.5,50.0,YES
-Uniform Static INT8 (PTQ),76.68,-0.08,0.25,75.0,YES
+Configuration,Top-1 Acc (%),Top-1 Drop (pp),Energy (norm.),Energy Savings (%),H1 Confirmed
+FP32 Baseline,76.13,—,1,0,—
+Uniform BF16,76.09,0.04,0.5,50,Yes
+Uniform Static INT8 (PTQ),75.99,0.14,0.25,75,Yes
