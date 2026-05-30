@@ -1,1 +1,8 @@
-Configuration,Top-1 Acc (%),Acc Drop (pp),Energy Savings (%),Pareto Optimal
+Configuration,Top-1 Acc (%),Top-1 Drop (pp),Energy Savings (%),Pareto Optimal
+FP32 Baseline,76.80,—,0,NO
+Uniform BF16 (H1),76.09,0.71,50,NO
+Uniform Static INT8 (H1),75.99,0.81,75,YES
+NeuroQuant (Cortical),77.04,-0.24,21.98,YES
+Inverted (Anti-Cortical),76.76,0.04,58.25,YES
+Random Assignment,76.80,0.00,34.58,NO
+Aggressive Early INT8,77.00,-0.20,48.44,YES
