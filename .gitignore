@@ -1,0 +1,41 @@
+# Datasets (large — use HuggingFace or local path)
+tiny-imagenet-200/
+imagenet/
+data/
+
+# Runtime-generated outputs at repo root (committed versions live in results/)
+neuroquant_results.csv
+neuroquant_summary.txt
+h1_results.csv
+h1_summary.txt
+h2_results.csv
+h2_summary.txt
+h3_results.csv
+h3_summary.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
