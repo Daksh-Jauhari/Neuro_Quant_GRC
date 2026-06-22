@@ -1,5 +1,5 @@
 # NeuroQuant-GRC
-**Semi finalist in global research challenge**/n
+**Semi finalist in global research challenge**/
 
 **Biologically-inspired mixed-precision neural network quantization guided by the visual cortex hierarchy.**
 
